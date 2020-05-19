@@ -66,6 +66,7 @@ allstardf = read.csv("allstardf.csv")[,-1]
 
 head(all.nbadf)
 head(allstardf)
+<<<<<<< HEAD
 head(reg)
 
 allstardf = read.csv("allstardf.csv")[,-1]
@@ -97,3 +98,8 @@ for (i in 1:nrow(careerdf)){
 head(careerdf)
 write.csv(careerdf, "careerdf.csv")
 
+=======
+full_join(all.nbadf, allstardf)
+
+allstardf = read.csv("allstardf.csv")[,-1]
+>>>>>>> d6b91d8a2b0958ab359b8b40987018526718e245
